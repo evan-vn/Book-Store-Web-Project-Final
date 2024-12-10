@@ -72,7 +72,7 @@
             <div class="card-body">
               <h5 class="card-title" th:text="${book.title}"></h5>
               <p class="card-text" th:text="${book.description}"></p>
-              <a href="/customer/book/{book.id}" class="btn btn-primary">View Details</a>
+              <a th:href="@{/customer/book/{id}(id=${book.bookId})}" class="btn btn-info mt-2">View Details</a>
             </div>
           </div>
         </div>
