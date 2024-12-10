@@ -29,8 +29,8 @@ Before you start, ensure you have the following installed:
 
 1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/evan-vn/Book-Store-Web-Project-Final.git
+   cd Book-Store-Web-Project-Final
 
 2. **Database setup**:
    
